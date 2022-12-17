@@ -2,7 +2,7 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game:GetService("Players").LocalPlayer.Character
 
 local p = game:GetService("Players").LocalPlayer
-local target = "45h"
+local target = _G.tA
 local rating = math.random(1, 10)
 
 if rating > 5 then 
